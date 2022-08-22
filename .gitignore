@@ -4,4 +4,6 @@
 *.swp
 tags
 insights_docs/docs/current
+insights_docs/public/docs
+insights_docs/www/docs.html
 node_modules/
