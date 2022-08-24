@@ -13,7 +13,10 @@ export default defineConfig({
 	outDir: "../insights_docs/public/docs",
 	base: "/assets/insights_docs/docs/",
 
-  head: [['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }]],
+  head: [
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }],
+    ['link', { rel: 'stylesheet', href:'/style.css' }]
+  ],
 
   themeConfig: {
     logo: '/logo.png',
