@@ -24,7 +24,7 @@ export default defineConfig({
     nav: nav(),
     sidebar: sidebar(),
     editLink: {
-      pattern: 'https://github.com/frappe/insights_docs/edit/main/docs/:path',
+      pattern: 'https://github.com/nextchamp-saqib/insights_docs/edit/main/docs/:path',
       text: 'Edit this page on GitHub',
     },
     socialLinks: [
