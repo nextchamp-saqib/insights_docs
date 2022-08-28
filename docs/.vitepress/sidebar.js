@@ -16,6 +16,16 @@ export default function sidebar() {
 			],
 		},
 		{
+			text: "Query",
+			collapsible: false,
+			items: [
+				{ text: "Tables", link: "/essentials/tables" },
+				{ text: "Columns", link: "/essentials/dimension-metrics" },
+				{ text: "Filters", link: "/essentials/filters" },
+				{ text: "Expressions", link: "/essentials/expressions" },
+			]
+		},
+		{
 			text: "Miscellaneous",
 			collapsible: false,
 			items: [
