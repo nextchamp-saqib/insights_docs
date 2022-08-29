@@ -14,8 +14,8 @@ export default defineConfig({
 	base: "/assets/insights_docs/docs/",
 
   head: [
-    ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }],
-    ['link', { rel: 'stylesheet', href:'/style.css' }]
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/assets/insights_docs/docs/favicon.png' }],
+    ['link', { rel: 'stylesheet', href:'/assets/insights_docs/docs/style.css' }]
   ],
 
   themeConfig: {
