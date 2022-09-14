@@ -21,6 +21,10 @@ Here's what you will need to connect to your database:
 If you are connecting to a remote database, you must keep it enabled
 :::
 
+::: tip Connect to Frappe Cloud Site
+If your site is hosted on Frappe Cloud, check out these [instructions](../miscellaneous/faq#q-my-site-is-hosted-on-frappe-cloud-how-do-i-connect-to-my-database) get the database credentials.
+:::
+
 
 ![New Data Source](./images/new-data-source.gif)
 
