@@ -16,13 +16,20 @@ export default function sidebar() {
 			],
 		},
 		{
+			text: "Configuration",
+			collapsible: false,
+			items: [
+				{ text: "Adding Data Sources", link: "/data-source/create-new" },
+			]
+		},
+		{
 			text: "Query",
 			collapsible: false,
 			items: [
-				{ text: "Tables", link: "/essentials/tables" },
-				{ text: "Columns", link: "/essentials/dimension-metrics" },
-				{ text: "Filters", link: "/essentials/filters" },
-				{ text: "Expressions", link: "/essentials/expressions" },
+				{ text: "Tables", link: "/query/tables" },
+				{ text: "Columns", link: "/query/dimension-metrics" },
+				{ text: "Filters", link: "/query/filters" },
+				{ text: "Expressions", link: "/query/expressions" },
 			]
 		},
 		{

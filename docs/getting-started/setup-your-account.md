@@ -11,14 +11,14 @@ Next, you will be prompted to enter your database credentials. You need to enter
 ![Database Setup](./images/setup-wizard-database.png)
 
 Here's what you will need to connect to your database:
-- The **hostname** of the server where your database is
-- The **port** of the database server
+- The **hostname** of the server where your database is (leave empty for localhost)
+- The **port** of the database server (leave empty for default port)
 - The **database name**
-- The **username** you use for the database - preferably a user with read-only privileges
+- The **username** you use for the database (preferably a user with read-only privileges)
 - The **password** you use for the database
 
 ::: tip Use SSL
-If your connection works with SSL enabled, you must keep it enabled
+If you are connecting to a remote database, you must keep it enabled
 :::
 
 ::: tip Demo Data Setup
